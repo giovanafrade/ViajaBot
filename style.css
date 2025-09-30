@@ -29,6 +29,8 @@ header {
   background-color: #e6f0fa;
   display: flex;
   align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .intro {
