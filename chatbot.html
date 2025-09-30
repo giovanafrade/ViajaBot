@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ViajaBot - Assistente de Viagem</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header com logo-->
+    <header>
+      <img src="assets/imgs/logo-transparente.png">
+    </header>
+
+    <!-- Área principal com perguntas e respostas -->
+    <main class="main">
+      <div id="welcome-message" class="welcome-message">
+        Olá, que bom ver você aqui! Quais as suas dúvidas?
+      </div>
+      <div class="chat-box" id="chat-box" style="display: none;">
+        <!-- As mensagens serão inseridas aqui via JavaScript -->
+      </div>
+    </main>
+
+    <!-- Footer com campo de texto e botão de envio -->
+    <footer class="footer">
+      <form id="chat-form" class="chat-form">
+        <textarea id="user-input" class="input-field" placeholder="Descreva seu problema de viagem..." required>
+          </textarea>
+        <button type="submit" class="send-button">Enviar</button>
+      </form>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
